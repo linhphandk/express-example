@@ -6,3 +6,5 @@ create table User(
     password varchar(255),
     primary key (id)
 );
+
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'rootroot'

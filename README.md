@@ -1,7 +1,7 @@
 # To run
 
 1. find the sql script in docker-entrypoint-initdb.d to create the database
-2. change the mysql configuration to the credentials of your database
+2. create a .env file for enviroment variables look for description below
 3. run npm install to get all the dependencies
 4. run npm start and the server is listening to your port on 8000 fyi not working with cors forgot to add it please use postman or curl
 
